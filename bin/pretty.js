@@ -2,18 +2,11 @@
 'use strict'
 
 const cli = require('yargs')
-const updateNotifier = require('update-notifier')
 const debug = require('debug')('mech:pretty:cli')
 const fp = require('lodash/fp')
-const pkg = require('../package.json')
 const { getColumns } = require('../lib/utils')
 const CONSTANTS = require('../lib/constants')
 const config = require('../lib/utils/config')
-
-updateNotifier({ pkg }).notify({
-  isGlobal: true,
-  shouldNotifyInNpmScript: true,
-})
 
 cli
   .usage('Usage: ... | pretty [options]')
