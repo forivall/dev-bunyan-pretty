@@ -1,23 +1,24 @@
 {
-  "name": "@mechanicalhuman/bunyan-pretty",
+  "name": "@forivall/bunyan-pretty",
   "version": "3.0.3",
   "description": "Prettifies NDJSON (Newline Delimited JSON) logs, like `bunyan -o short` but actually pretty.",
   "keywords": [
     "bunyan",
     "pino"
   ],
-  "homepage": "https://github.com/MechanicalHuman/dev-bunyan-pretty#readme",
+  "homepage": "https://github.com/forivall/dev-bunyan-pretty#readme",
   "bugs": {
-    "url": "https://github.com/MechanicalHuman/dev-bunyan-pretty/issues"
+    "url": "https://github.com/forivall/dev-bunyan-pretty/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:MechanicalHuman/dev-bunyan-pretty.git"
+    "url": "git@github.com:forivall/dev-bunyan-pretty.git"
   },
   "license": "MIT",
   "author": "Jorge Proaño <jorge@hiddennodeproblem.com> (http://www.hidden-node-problem.com)",
   "contributors": [
-    "Jorge Proaño <jorge@hiddennodeproblem.com>"
+    "Jorge Proaño <jorge@hiddennodeproblem.com>",
+    "Emily M Klassen <forivall@gmail.com>"
   ],
   "main": "lib/index.js",
   "bin": {

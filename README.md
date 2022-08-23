@@ -1,6 +1,6 @@
-# @mechanicalhuman/bunyan-pretty
+# @forivall/bunyan-pretty
 
-![hero image](https://raw.githubusercontent.com/MechanicalHuman/dev-bunyan-pretty/master/img/pretty-nostamps.png)
+![hero image](https://raw.githubusercontent.com/forivall/dev-bunyan-pretty/main/img/pretty-nostamps.png)
 
 > Prettifies NDJSON (Newline Delimited JSON) logs, like \`bunyan -o short\` but actually pretty.
 
@@ -30,7 +30,7 @@
 ## Install
 
 ```sh
-npm install @mechanicalhuman/bunyan-pretty
+npm install @forivall/bunyan-pretty
 ```
 
 ## Usage
@@ -96,7 +96,7 @@ You can use pretty as a writable stream from inside your NodeJS scripts. Probabl
  * @return {WritableStream}
  */
 
-const pretty = require('@mechanicalhuman/bunyan-pretty')
+const pretty = require('@forivall/bunyan-pretty')
 ```
 
 ### Default Options
@@ -125,7 +125,7 @@ const defaultOptions = {
 ### Example
 
 ```js
-const pretty = require('@mechanicalhuman/bunyan-pretty')
+const pretty = require('@forivall/bunyan-pretty')
 const bunyan = require('bunyan')
 
 const log = bunyan.createLogger({
